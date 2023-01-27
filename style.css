@@ -1,0 +1,153 @@
+.masthead {
+    padding: 2rem 0 5rem;
+    position: relative;
+    /* background-color: #f04b47; */
+    background-color: rgb(29, 150, 255);
+    /* background-image: url(),linear-gradient(45deg,#f04b47 0%,#f04b47 100%); */
+    background-image: url(),linear-gradient(45deg,rgb(29, 150, 255) 0%,rgb(29, 150, 255) 100%);
+    background-size: cover;
+    z-index: 0;
+}
+.page-top {
+    /* background-color: #f04b47; */
+    background-color: rgb(29, 150, 255);
+    /* border-bottom: 5px solid #CCC; */
+    /* border-top: 5px solid #f04b47; */
+    border-top: 5px solid rgb(29, 150, 255);;
+    margin-bottom: 35px;
+    min-height: 50px;
+    padding: 0;
+    padding: 20px 0;
+    position: relative;
+    text-align: left;
+}
+
+#carbonads {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    line-height: 3rem;
+    background-color: rgba(248,249,250,.15);
+    box-shadow: 0 0 1rem 0.5rem rgb(33 37 41 / 10%);
+}
+
+.page-top ul.breadcrumb {
+    background: none;
+    margin: -3px 0 0;
+    padding: 0;
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.masthead svg.wave {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+.card {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.box-shadow-common {
+    box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    /* border: 1px solid #eee; */
+}
+
+.prog-list-pnl span {
+    background: #ddd;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    padding: 12px 15px;
+    border-radius: 4px 4px 0 0;
+    font-weight: 500;
+}
+.bg-grey {
+    background: #363636!important;
+}
+.link-text{
+    text-decoration: none !important;
+    color: #363636;
+}
+
+p {
+    color: #777777;
+    line-height: 24px;
+    margin: 0 0 20px;
+}
+
+@media (min-width: 720px) {
+        .scrollable{
+            height: 550px !important;
+            overflow-y: scroll !important
+        }
+}
+
+.active{
+    color:#f04b47;
+}
+
+.mb-0 > a {
+    display: block;
+    position: relative;
+  }
+  .mb-0 > a:after {
+    /* content: "\f078"; fa-chevron-down */
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 0;
+  }
+  .mb-0 > a[aria-expanded="true"]:after {
+    content: "\f077"; /* fa-chevron-up */
+    
+    color:  #f04b47;
+  }
+  .mb-0 > a[aria-expanded="true"]{
+    color:  #f04b47;
+  }
+
+  .mb-0 > a[aria-expanded="false"]:after {
+    content: "\f078"; /* fa-chevron-down */
+    
+    color:  rgb(29, 150, 255);
+  }
+  .mb-0 > a[aria-expanded="false"] {
+    color:  rgb(29, 150, 255);
+  }
+
+  .collapsed{
+    font-size: 16px !important;
+    color: rgb(29, 150, 255);
+  }
+  .num{
+    margin-right: 2%;
+  }
+  .nsc::-webkit-scrollbar {
+    width: 11px;
+  }
+  html {
+    --thumbBG: lightgrey;
+  }
+  body::-webkit-scrollbar {
+    width: 11px;
+  }
+  body::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+  }
+  .nsc::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .nsc::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+  }
