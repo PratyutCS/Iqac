@@ -14,7 +14,7 @@
 </head>
 <body>
     <div id="header">
-        <img src="./../bml-color-logo.svg" id="logo" alt="logo">
+        <img src="./Vision document_BMU 2025/bml-color-logo.svg" id="logo" alt="logo">
         <p class="heading">5 YEAR STRATEGY PLAN</p>
         <div class="btn-group">
             <button type="button" id="mbtn" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -30,6 +30,7 @@
               <button class="dropdown-item" type="button" style="color:green;">Research & IPR</button>
               <button class="dropdown-item" type="button" onclick="window.open('./../UO/university_organogram.html','_self')">University Organogram</button>
               <button class="dropdown-item" type="button" onclick="window.open('./../Institutional_Distinctiveness/institutional_distinctiveness.html','_self')">Institutional Distinctiveness</button>
+              <button class="dropdown-item" type="button" onclick="window.open('./../best_practices/index1.html','_self')">Institutional Best Practice</button>
               <button class="dropdown-item" type="button" style="color:green;">Feedback & Action Taken Report</button>
               <button class="dropdown-item" type="button" style="color:green;">Institutional Policies/SOPs/Regulations</button>
               <button class="dropdown-item" type="button" style="color:green;">Committees</button>
@@ -82,6 +83,9 @@
                 $('.heading').text('STATEGIC GOALS');  
                 }
                 else if (scrollPos >= t && scrollPos < y) {
+                $('.heading').text('STATEGIC GOALS');  
+                }
+                else if (scrollPos >= y) {
                 $('.heading').text('STATEGIC GOALS');  
                 }
                 else {
