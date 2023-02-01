@@ -52,10 +52,10 @@
                     <span class="bg-grey" style="margin:0;font-size:25px;">IQAC Cell</span>
                   <div style="margin: 0px 5px 0px 5px" class="row">
                     <div style="padding: 8px 8px 8px 10px; border-bottom: 1px solid #EDEDDE;" class="col-md-12">
-                        <a style=" text-decoration: none !important;" class="link-text" href="#">IQAC Composition</a>
+                        <a style=" text-decoration: none !important;" class="link-text" href="./composition/index.html">IQAC Composition</a>
                     </div>
                     <div style="padding: 8px 8px 8px 10px; border-bottom: 1px solid #EDEDDE;" class="col-md-12">
-                        <a style=" text-decoration: none !important;" class="link-text" href="./composition/index.html">IQAC Meetings</a>
+                        <a style=" text-decoration: none !important;" class="link-text" href="#">IQAC Meetings</a>
                     </div>
                     <div style="padding: 8px 8px 8px 10px; border-bottom: 1px solid #EDEDDE;" class="col-md-12">
                         <a style=" text-decoration: none !important;" class="link-text" href="./naac.html">NAAC Documentation</a>
@@ -64,7 +64,7 @@
                         <a style=" text-decoration: none !important;" class="link-text" href="#">Awards & Achievements</a>
                     </div>
                     <div style="padding: 8px 8px 8px 10px; border-bottom: 1px solid #EDEDDE;" class="col-md-12">
-                      <a style=" text-decoration: none !important;" class="link-text" href="#">OBE</a>
+                      <a style=" text-decoration: none !important;" class="link-text" href="./obe/index.html">OBE</a>
                     </div>
                     <div style="padding: 8px 8px 8px 10px; border-bottom: 1px solid #EDEDDE;" class="col-md-12">
                         <a style=" text-decoration: none !important;" class="link-text" href="./plans/index.html">5 Years Strategy Plan</a>
@@ -94,7 +94,7 @@
                         <a style=" text-decoration: none !important;" class="link-text" href="https://maitri.bmu.edu.in/applicantLogins.htm?link=3d133791e3608858a1c6a8974dfe03a6&dis=91d5f8d">ERP</a>
                     </div>
                     <div style="padding: 8px 8px 8px 10px; border-bottom: 1px solid #EDEDDE;" class="col-md-12">
-                      <a style=" text-decoration: none !important;" class="link-text" href="#">Capacity Development and skills enhancement activities</a>
+                      <a style=" text-decoration: none !important;" class="link-text" href="#">Skills enhancement activities</a>
                   </div>
                     <div style="padding: 8px 8px 8px 10px; border-bottom: 1px solid #EDEDDE;" class="col-md-12">
                         <a style=" text-decoration: none !important;" class="link-text" href="https://www.bmu.edu.in/nirf-ranking-report-2020">NIRF</a>
@@ -208,5 +208,19 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script>
+        var links = document.querySelectorAll('a'),i, href;
+
+        for(i = 0; i < links.length; i++) {
+            href = links[i].getAttribute('href');
+
+            if(href.trim().length < 1) {
+                links[i].style.color="green";
+            }
+            if(href.trim()=="#"){
+                links[i].style.color="green";
+            }
+        }
+    </script>
 </body>
 </html>

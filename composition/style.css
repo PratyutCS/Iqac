@@ -8,6 +8,7 @@
 #header{
     position: fixed;
     width:100%;
+    z-index: 1000;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -15,32 +16,39 @@
 }
 #logo{
     padding: 0;
-    margin-left: 2rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    height: 5rem;
-    background-size:cover;
+    height: 12vh;
+    margin-left: 1vw;
+    margin-top: 0.4vh;
+    margin-bottom: 0.4vh;
+    width: 19.5vw;
 }
 .btn-group{
-    margin: 1.5rem 2rem 1.5rem 0rem;
-    width:15rem;
+    position: fixed;
+    width:12vw;
+    margin-right: 1vw;
+    margin-top: 2.4vh;
+    margin-bottom: 2.4vh;
+    font-size: 3vw;
 }
 #mbtn{
     background-color: #0d6efd;
     color: white;
     font-family: 'Poppins';
-    font-size: 1.2rem;
+    font-size: 1.5vw;
+    padding: 1.5vw !important;
+    display: flex;
+    align-items: center;
 }
 .sec2{
     background-color: white;
-    padding-top: 96px;
+    padding-top: 12.8vh;
     width: 100%;
 }
 
 #download{
     position: fixed;
-    right: 1rem;
-    bottom: 1rem;
+    right: 1vw;
+    bottom: 1vw;
     padding: 0.5rem;
     border-radius: 0.5rem;
     border: none;
@@ -56,11 +64,20 @@
     background-color: black;
 }
 .ids{
-    height:200vh;
     width:80vw;
     margin-left: 10vw;
     box-shadow: rgba(37, 91, 171, 0.4) 5px 5px, rgba(37, 91, 171, 0.3) 10px 10px, rgba(37, 91, 171, 0.2) 15px 15px, rgba(37, 91, 171, 0.1) 20px 20px, rgba(37, 91, 171, 0.05) 25px 25px, rgba(37, 91, 171, 0.4) -5px 5px, rgba(37, 91, 171, 0.3) -10px 10px, rgba(37, 91, 171, 0.2) -15px 15px, rgba(37, 91, 171, 0.1) -20px 20px, rgba(37, 91, 171, 0.05) -25px 25px;
 }
+@media screen and (min-width: 600px) {
+    ids {
+      height: 100vh;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    ids {
+      height: 200vh;
+    }
+  }
 .heading{
     font-family: 'Poppins';
     font-size: 3.2vw;

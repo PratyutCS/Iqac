@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./../favicon.ico" async="">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./touch.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Outcome Based Education</title>
+</head>
+<body>
+    <div id="header">
+        <img src="./images/bml-color-logo.svg" id="logo" alt="logo">
+        <div class="navbtn">
+          <button class="dropdown-item bb a active" type="button" onclick="mainblock(1);">VISION</button>
+          <button class="dropdown-item bb b" type="button" onclick="mainblock(2);">MISSION</button>
+          <button class="dropdown-item bb c" type="button" onclick="mainblock(3);">GRADUATE ATTRIBUTES</button>
+          <button class="dropdown-item bb d" type="button" onclick="mainblock(4);">PROGRAMME OUTCOMES</button>
+        </div>
+        <div class="btn-group">
+            <button type="button" id="mbtn" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              IQAC Cell
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+              <button class="dropdown-item" type="button" onclick="window.open('./../index.html','_self');" >About IQAC</button>
+              <button class="dropdown-item" type="button" onclick="window.open('./../composition/index.html','_self')">IQAC Composition</button>
+              <button class="dropdown-item" type="button" style="color:green;">IQAC Meetings</button>
+              <button class="dropdown-item" type="button" onclick="window.open('./../naac.html','_self')">NAAC Documentation</button>
+              <button class="dropdown-item" type="button" style="color:green;">Awards & Achievements</button>
+              <button class="dropdown-item" type="button" onclick="window.open('./../plans/index.html','_self');">5 Years Strategy Plan</button>
+              <button class="dropdown-item" type="button" onclick="window.open('https://www.bmu.edu.in/research-at-bmu/','_self')">Research</button>
+              <button class="dropdown-item" type="button" onclick="window.open('./../UO/university_organogram.html','_self')">University Organogram</button>
+              <button class="dropdown-item" type="button" onclick="window.open('./../Institutional_Distinctiveness/institutional_distinctiveness.html','_self')">Institutional Distinctiveness</button>
+              <button class="dropdown-item" type="button" onclick="window.open('./../best_practices/index1.html','_self')">Institutional Best Practice</button>
+              <button class="dropdown-item" type="button" style="color:green;">Feedback & Action Taken Report</button>
+              <button class="dropdown-item" type="button" style="color:green;">Institutional Policies/SOPs/Regulations</button>
+              <button class="dropdown-item" type="button" style="color:green;">Committees</button>
+              <button class="dropdown-item" type="button" onclick="window.open('https://maitri.bmu.edu.in/applicantLogins.htm?link=3d133791e3608858a1c6a8974dfe03a6&dis=91d5f8d','_self')">ERP</button>
+              <button class="dropdown-item" type="button" style="color:green;">Skills enhancement activities</button>
+              <button class="dropdown-item" type="button" onclick="window.open('https://www.bmu.edu.in/nirf-ranking-report-2020','_self')">NIRF</button>
+            </div>
+          </div>
+    </div>
+    <div class="sec2 b1">
+      <div class="vision">
+        <h1 class="hv1">Vision</h1>
+        <div class="paravision">
+          <p class="pv1">BML Munjal University seeks to nurture ethical leaders who are skilled, knowledgeable and have the life skills required for leading their organizations to success.</p>
+          <p class="pv2">The university shall seek the advancement and dissemination of practically oriented knowledgebenchmarked with the best global standards.</p>
+        </div>
+      </div>
+    </div>
+    <div class="sec2 b2">
+      <div class="mission">
+        <h1 class="hm1">Mission</h1>
+        <div class="paramission">
+          <p class="pm1">BML Munjal University aims to be a leading university for the quality and impact of its teaching, research and linkages with major stakeholders. The focus of the university is to find creative solutions to problems through application of knowledge. The university aims to create a talented community of students and faculty who excel in teaching, learning and research, in a creative and stimulating environment. The university will collaborate with other institutions for development of science, technology and arts in the global context.</p>
+        </div>
+      </div>
+    </div>
+    <div class="sec2 b3">
+      <div class="ga">
+        <h1 class="hga1">Graduate Attributes</h1>
+        <div class="paraga">
+          <ul>
+            <li><p class="pga1">Acquire and apply practical understanding of discipline knowledge.</p></li>
+            <li><p class="pga1">Demonstrate a sense of ethics and display excellence in both personal and professional life.</p></li>
+            <li><p class="pga1">Exhibit problem solving, critical thinking skills and investigative capability to address real world problems.</p></li>
+            <li><p class="pga1">Manifest leadership qualities and work effectively in teams across globally diverse environments.</p></li>
+            <li><p class="pga1">Be a lifelong learner with an entrepreneurial mindset to innovate in the constantly changing global scenario.</p></li>
+            <li><p class="pga1">Possess a strong sense of inquiry and design innovative solutions for positive societal impact.</p></li>
+            <li><p class="pga1">Be effective communicators and possess an empathetic outlook.</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="sec2 b4">
+      <div class="navigator">
+        <button class="dropdown-item bbn q active" type="button" onclick="block(1);">SOET</button>
+        <button class="dropdown-item bbn w" type="button" onclick="block(2);">SOM</button>
+        <button class="dropdown-item bbn e" type="button" onclick="block(3);">SOL</button>
+        <button class="dropdown-item bbn r" type="button" onclick="block(4);">SOEC</button>
+      </div>
+      <div class="disbody">
+        <div class="body1">
+          <div class="navigator">
+            <button class="dropdown-item bbn p active" type="button" onclick="block1(1);">ME</button>
+            <button class="dropdown-item bbn o" type="button" onclick="block1(2);">CSE</button>
+            <button class="dropdown-item bbn i" type="button" onclick="block1(3);">ECE</button>
+          </div>
+          <div class="disbody1">
+            <div class="body21">
+
+              <div class="pome">
+                <h1 class="pohme">Program Outcomes</h1>
+                <div class="poparame">
+                  <ul>
+                    <li><p class="popme">Apply the knowledge of mathematics, science, and engineering fundamentals to solve complex problems in the different mechanical engineering fields.</p></li>
+                    <li><p class="popme">Identify, formulate, review, and analyse complex engineering problems by using appropriate mathematical and scientific methods, tools, and techniques to evaluate solutions and reach substantiated conclusions by using the domain knowledge of mechanical engineering.</p></li>
+                    <li><p class="popme">Design appropriate mechanical systems and prototypes through analysis of various components by working within the constraints which may include parameters encompassing social, economic, environmental, health and safety, manufacturability, and sustainability components.</p></li>
+                    <li><p class="popme">Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions related to mechanical engineering problems.</p></li>
+                    <li><p class="popme">Apply appropriate techniques and tools to solve complex mechanical engineering problems by effective usage of IT resources with an understanding of the limitations.</p></li>
+                    <li><p class="popme">Apply contextual knowledge and appropriate reasoning to assess societal, safety, legal, and cultural issues and the consequent responsibilities relevant to the professional engineering practice.</p></li>
+                    <li><p class="popme">Understand the impact of the mechanical engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.</p></li>
+                    <li><p class="popme">Apply ethical principles and commit to professional ethics and responsibilities and norms of professional engineering practice.</p></li>
+                    <li><p class="popme">Function effectively as a reliable and responsible individual, and as a member or leader in diverse teams, and in multidisciplinary settings.</p></li>
+                    <li><p class="popme">Communicate effectively on complex engineering activities specifically with the vast engineering community and in general with the society at large and should be able to comprehend and write effective reports and design documentation, make effective presentations using various tools, and give out and receive clear instructions.</p></li>
+                    <li><p class="popme">Demonstrate knowledge and understanding of the mechanical engineering area as well as in all interdisciplinary engineering fields and should be able to effectively apply management principles to manage large-scale projects.</p></li>
+                    <li><p class="popme">Recognize the need for and importance of learning advanced technologies and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change through both online and offline modes.</p></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="psome">
+                <h1 class="psohme">Program Specific Outcomes</h1>
+                <div class="psoparame">
+                  <ul>
+                    <li><p class="psopme">Demonstrate mechanical engineering knowledge to understand, design, apply and solve engineering problems related to the Automobile sector.</p></li>
+                    <li><p class="psopme">Analyse and design manufacturing automation, robotics, and mechatronic systems within realistic constraints.</p></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <div class="body31">
+
+              <div class="pome">
+                <h1 class="pohme">Program Outcomes</h1>
+                <div class="poparame">
+                  <ul>
+                    <li><p class="popme">Apply the foundational concepts of mathematics, science, and computer engineering to find novel solutions for complex real-life engineering problems.</p></li>
+                    <li><p class="popme">Identify, formulate, review literature, and analyze complex computer engineering problems reaching substantiated conclusions and derive a coherent logic that can be implemented by computers.</p></li>
+                    <li><p class="popme">Design analytical and computational models for solving complex engineering problems giving due consideration to issues related to public health and safety, cultural and societal constraints, and environmental concerns.</p></li>
+                    <li><p class="popme">Use research-based knowledge, methods, tools, and techniques for data collection, designing digital computing systems, analyzing, and interpreting the results to provide substantiated conclusions.</p></li>
+                    <li><p class="popme">Use appropriate tools to model complex computer engineering problems through identification of the limitations and creating solutions to predict the real-world phenomena.</p></li>
+                    <li><p class="popme">Use appropriate contextual knowledge of computer engineering to review and assess societal, health, legal, cultural, safety and contemporary issues and rationalize the ensuing responsibilities towards the society. </p></li>
+                    <li><p class="popme">Adopt computer engineering practices in congruence with societal need, understand the working practices and its impact on natural resources for sustainable development.</p></li>
+                    <li><p class="popme">Use ethical principles to pursue excellence in developing computer engineering systems and behave appropriately to develop a reliable and trustworthy relationship with others.</p></li>
+                    <li><p class="popme">Function effectively as a reliable and responsible individual, and as a member or leader in diverse computer engineering teams, and in multidisciplinary settings, thereby placing team goals ahead of individual interests.</p></li>
+                    <li><p class="popme">Communicate effectively by capturing the desirable computer system requirements for preparation of specification documents, write clear and concise report such as laboratory files, research papers, thesis, and presentation materials.</p></li>
+                    <li><p class="popme">Demonstrate knowledge of computer engineering and management principles for the completion of individual or group projects in multidisciplinary environments.</p></li>
+                    <li><p class="popme">Recognize the evolving technological changes and engage as an independent and life-long learner in both computing and non-computing fields.</p></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="psome">
+                <h1 class="psohme">Program Specific Outcomes</h1>
+                <div class="psoparame">
+                  <ul>
+                    <li><p class="psopme">Identify applicable tools and techniques related to data science practice such as data collection, cleaning, analysis, modelling, evaluation, and result interpretation and apply them for deriving hidden and meaningful patterns for appropriate actionable insights.</p></li>
+                    <li><p class="psopme">Develop intelligent systems for various real-life domains like healthcare, transportation, finance etc. using Artificial Intelligence methodologies. </p></li>
+                    <li><p class="psopme">Understand the foundational concepts and techniques to protect computing systems against constantly evolving cybersecurity threats and analyze security breaches and violations of cyber systems and networks to provide appropriate solutions.</p></li>
+                    <li><p class="psopme">Design effective security systems to mitigate risks, threats, and vulnerabilities for protecting the organizations against cyber threats.</p></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <div class="body41">
+
+              <div class="pome">
+                <h1 class="pohme">Program Outcomes</h1>
+                <div class="poparame">
+                  <ul>
+                    <li><p class="popme">Apply the knowledge of mathematics, science, engineering fundamentals, along with Electronics & Communication engineering to the solution of complex engineering problems.</p></li>
+                    <li><p class="popme">Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using domain knowledge of electronics & communication engineering.</p></li>
+                    <li><p class="popme">Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health & safety, cultural, societal, and environmental considerations.</p></li>
+                    <li><p class="popme">Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.</p></li>
+                    <li><p class="popme">Select and apply appropriate techniques, resources, and electronics & communication engineering tools to various engineering activities with an understanding of the limitations.</p></li>
+                    <li><p class="popme">Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues, and the consequent responsibilities relevant to the professional engineering practice.</p></li>
+                    <li><p class="popme">Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.</p></li>
+                    <li><p class="popme">Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.</p></li>
+                    <li><p class="popme">Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.</p></li>
+                    <li><p class="popme">Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.</p></li>
+                    <li><p class="popme">Demonstrate knowledge and understanding of the electronics & communication engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.</p></li>
+                    <li><p class="popme">Recognize the need for and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.</p></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="psome">
+                <h1 class="psohme">Program Specific Outcomes</h1>
+                <div class="psoparame">
+                  <ul>
+                    <li><p class="psopme">Specify, design, prototype and test modern electronic circuits and systems that perform analog and digital processing functions.</p></li>
+                    <li><p class="psopme">Specify, design, prototype and test, electronic systems for communication & signal processing.</p></li>
+                    <li><p class="psopme">Understand, Specify, and design, electronic systems using Sensors, IoT and Microprocessors.</p></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="body2">
+          <div class="navigator">
+            <button class="dropdown-item bbn l active" type="button" onclick="block2(1);">BBA</button>
+            <button class="dropdown-item bbn k" type="button" onclick="block2(2);">MBA</button>
+          </div>
+          <div class="disbody2">
+            <div class="body22">
+
+              <div class="pome">
+                <h1 class="pohme">Program Outcomes</h1>
+                <div class="poparame">
+                  <ul>
+                    <li><p class="popme">Draw on a sound understanding of concepts, principles, and theories of the core areas like Marketing, Finance, Human Resources, Operations, Business Analytics and Strategy in a global context.</p></li>
+                    <li><p class="popme">Exhibit knowledge and awareness of general issues related to society, politics, legal and business environment, and have a wider perspective of the world.</p></li>
+                    <li><p class="popme">Ability to formulate a problem, synthesize information, analyze, and interpret data to solve business problems.</p></li>
+                    <li><p class="popme">Demonstrate inquisitiveness and critical thinking ability to solve business problems.</p></li>
+                    <li><p class="popme">Integrate socio-ethical responsibility, life, and professional skills in organizations.</p></li>
+                    <li><p class="popme">Employ creativity for the benefit of organization and society at large.</p></li>
+                    <li><p class="popme">Develop effective verbal and/or written communication skills.</p></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="psome">
+                <h1 class="psohme">Program Specific Outcomes</h1>
+                <div class="psoparame">
+                  <ul>
+                    <li><p class="psopme">Apply knowledge of Indian Accounting Standards to companies operating in different industries for the purposes of financial reporting.</p></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <div class="body32">
+
+              <div class="pome">
+                <h1 class="pohme">Program Outcomes</h1>
+                <div class="poparame">
+                  <ul>
+                    <li><p class="popme">Draw on a sound understanding of concepts, principles, and theories of the core areas like Marketing, Finance, Human Resources, Operations, Business Analytics and Strategy in a global context.</p></li>
+                    <li><p class="popme">Exhibit knowledge and awareness of general issues related to society, politics, legal and business environment, and have a wider perspective of the world.</p></li>
+                    <li><p class="popme">Ability to formulate a problem, synthesize information, analyze, and interpret data to solve business problems.</p></li>
+                    <li><p class="popme">Demonstrate inquisitiveness and critical thinking ability to solve business problems.</p></li>
+                    <li><p class="popme">Integrate socio-ethical responsibility, life, and professional skills in organizations.</p></li>
+                    <li><p class="popme">Employ creativity for the benefit of organization and society at large.</p></li>
+                    <li><p class="popme">Develop effective verbal and/or written communication skills.</p></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="body3"></div>
+        <div class="body4">
+          <div class="navigator">
+            <button class="dropdown-item bbn m active" type="button" onclick="block4(1);">BA Econ. (H)</button>
+            <button class="dropdown-item bbn n" type="button" onclick="block4(2);">BCom (H)</button>
+          </div>
+          <div class="disbody4">
+            <div class="body24"></div>
+            <div class="body34"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
