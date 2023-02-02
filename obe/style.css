@@ -206,6 +206,7 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 2vh;
 }
 .hv1{
     text-align: center;
@@ -233,6 +234,7 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 2vh;
 }
 .hm1{
     text-align: center;
@@ -257,6 +259,7 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 2vh;
 }
 .hga1{
     text-align: center;
