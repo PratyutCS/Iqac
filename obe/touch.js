@@ -1,4 +1,3 @@
-var w,h;
 function block(i){
     if(i==1){
         document.querySelector(".body1").style.display="block";
