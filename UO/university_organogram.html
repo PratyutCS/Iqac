@@ -3,107 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=+, initial-scale=1.0">
-    <title>University Organogram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./../favicon.ico" async="">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <style>
-        *{
-            padding: 0;
-            margin: 0;
-        }
-        ::-webkit-scrollbar{
-            display: none;
-        }
-        #header{
-            position: fixed;
-            width:100vw;
-            z-index: 1000;
-            background-color: white;
-            display: flex;
-            justify-content: space-between;
-            box-shadow: rgba(0, 0, 0, 0.45) 0px 15px 35px;
-            height: 12.8vh;
-        }
-        #logo{
-            padding: 0;
-            width: 100vw;
-            margin-left: 1vw;
-            width: 19.5vw;
-        }
-        .btn-group{
-            width:12vw;
-            margin-right: 1vw;
-            margin-top: 2.4vh;
-            margin-bottom: 2.4vh;
-            font-size: 3vw;
-        }
-        #mbtn{
-            background-color: #0d6efd;
-            color: white;
-            font-family: 'Poppins';
-            font-size: 1.5vw;
-            padding: 1.5vw !important;
-            display: flex;
-            align-items: center;
-        }
-        .heading{
-            font-family: 'Poppins';
-            font-size: 3.2vw;
-            font-weight: bolder;
-            margin: auto;
-        }
-        .dropdown-item{
-            font-family: 'Poppins';
-        }
-        .mainbody{
-            position: absolute;
-            background-color: blueviolet;
-            z-index: 500;
-            height: 87.2vh;
-            max-height: 87.2vh;
-            margin-top: 12.8vh;
-            width: 100vw;
-            background-image: url("./img1.jpg") !important;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-size: 100vw 87.2vh;
-            overflow: scroll;
-        }
-    </style>
+    <title>University Organogram</title>
 </head>
 <body>
     <div id="header">
-        <img src="./bml-color-logo.svg" id="logo" alt="logo">
-        <h1 class="heading">University Organogram</h1>
-        <div class="btn-group">
-            <button type="button" id="mbtn" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              IQAC Cell
-            </button>
-            <div class="dropdown-menu dropdown-menu-right">
-              <button class="dropdown-item" type="button" onclick="window.open('./../index.html','_self');" >About IQAC</button>
-              <button class="dropdown-item" type="button" onclick="window.open('./../composition/index.html','_self')">IQAC Composition</button>
-              <button class="dropdown-item" type="button" style="color:green;">IQAC Meetings</button>
-              <button class="dropdown-item" type="button" onclick="window.open('./../naac.html','_self')">NAAC Documentation</button>
-              <button class="dropdown-item" type="button" style="color:green;">Awards & Achievements</button>
-              <button class="dropdown-item" type="button" onclick="window.open('./../obe/index.html','_self')">OBE</button>
-              <button class="dropdown-item" type="button" onclick="window.open('./../plans/index.html','_self');">5 Years Strategy Plan</button>
-              <button class="dropdown-item" type="button" onclick="window.open('https://www.bmu.edu.in/research-at-bmu/','_self')">Research</button>
-              <button class="dropdown-item" type="button" onclick="window.open('./../Institutional_Distinctiveness/institutional_distinctiveness.html','_self')">Institutional Distinctiveness</button>
-              <button class="dropdown-item" type="button" onclick="window.open('./../best_practices/index1.html','_self')">Institutional Best Practice</button>
-              <button class="dropdown-item" type="button" onclick="window.open('./../fatr/index.html','_self')">Feedback & Action Taken Report</button>
-              <button class="dropdown-item" type="button" style="color:green;">Institutional Policies/SOPs/Regulations</button>
-              <button class="dropdown-item" type="button" style="color:green;">Committees</button>
-              <button class="dropdown-item" type="button" onclick="window.open('https://maitri.bmu.edu.in/applicantLogins.htm?link=3d133791e3608858a1c6a8974dfe03a6&dis=91d5f8d','_self')">ERP</button>
-              <button class="dropdown-item" type="button" style="color:green;">Skills enhancement activities</button>
-              <button class="dropdown-item" type="button" onclick="window.open('https://www.bmu.edu.in/nirf-ranking-report-2020','_self')">NIRF</button>
+      <div class="header1">
+            <div class="b1">
+                <a class="covid" href="https://www.bmu.edu.in/covid-19/" target="_blank">OUR RESPONSE TO COVID-19</a>
+            </div>
+            <div class="b2">
+                
+                <a class="covid qq" href="https://alumni.bmu.edu.in/" target="_blank">ALUMNI</a>
+                <a class="covid qq" href="https://maitri.bmu.edu.in/applicantLogins.htm?link=3d133791e3608858a1c6a8974dfe03a6&dis=91d5f8d" target="_blank">ERP</a>
+                <a class="covid qq" href="https://www.bmu.edu.in/campus-life/events/" target="_blank">EVENTS</a>
+                <a class="covid qq" href="https://www.bmu.edu.in/media-coverage/" target="_blank">NEWS</a>
+                <a class="covid qq" href="https://www.bmu.edu.in/campus-life/virtual-tour/" target="_blank">VIRTUAL TOUR</a>
+                <a class="covid qq" href="https://www.bmu.edu.in/contact-us/" target="_blank">CONTACT</a>
+            </div>
+        </div>
+        <div class="header2">
+          <img src="./bml-color-logo.svg" id="logo" alt="logo" onclick="window.open('https://www.bmu.edu.in/','_self')">
+          <div class="resbtns">
+            <a class="lolbtn" href="./../index.html" target="_self">About IQAC</a>
+            <a class="lolbtn" href="#" style="color:green;" target="_self">IQAC Meetings</a>
+            <a class="lolbtn" href="./../naac.html" target="_self">NAAC Documentation</a>
+            <a class="lolbtn" href="./../composition/index.html"target="_self">IQAC Composition</a>
+            <div class="btn-group">
+              <button type="button" id="mbtn" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                IQAC Cell
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                <button class="dropdown-item" type="button" style="color:green;">Awards & Achievements</button>
+                <button class="dropdown-item" type="button" onclick="window.open('./../obe/index.html','_self');">OBE</button>
+                <button class="dropdown-item" type="button" onclick="window.open('./../plans/index.html','_self');">5 Years Strategy Plan</button>
+                <button class="dropdown-item" type="button" onclick="window.open('https://www.bmu.edu.in/research-at-bmu/','_self')">Research</button>
+                <button class="dropdown-item" type="button" onclick="window.open('./../Institutional_Distinctiveness/institutional_distinctiveness.html','_self')">Institutional Distinctiveness</button>
+                <button class="dropdown-item" type="button" onclick="window.open('./../best_practices/index1.html','_self')">Institutional Best Practice</button>
+                <button class="dropdown-item" type="button" onclick="window.open('./../fatr/index.html','_self')">Feedback & Action Taken Report</button>
+                <button class="dropdown-item" type="button" style="color:green;">Institutional Policies/SOPs/Regulations</button>
+                <button class="dropdown-item" type="button" style="color:green;">Committees</button>
+                <button class="dropdown-item" type="button" onclick="window.open('https://maitri.bmu.edu.in/applicantLogins.htm?link=3d133791e3608858a1c6a8974dfe03a6&dis=91d5f8d','_self')">ERP</button>
+                <button class="dropdown-item" type="button" style="color:green;">Skills enhancement activities</button>
+                <button class="dropdown-item" type="button" onclick="window.open('https://www.bmu.edu.in/nirf-ranking-report-2020','_self')">NIRF</button>
+              </div>
             </div>
           </div>
+        </div>
+    </div>    
+    <div class="sec2">
+        <img src="./img1.jpg" class="mainimg" alt="University Organogram">
     </div>
-    <div class="mainbody"></div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
