@@ -98,6 +98,21 @@ a{
         justify-content:flex-end;
         align-items: center;
     }
+    .lolbtn{
+        display: none !important;
+    }
+    .qq{
+        font-size: 1.75vh;
+    }
+    .btn-group{
+        width:30vw;
+    }
+    #logo{
+        width:35vw;
+    }
+    #mbtn{
+        font-size: 2vh;
+    }
   }
   @media screen and (min-width: 1000px) {
     ids {
@@ -126,6 +141,9 @@ a{
         display: flex;
         justify-content:flex-end;
         align-items: center;
+    }
+    .qaz{
+        display: none !important;
     }
   }
 .heading{
