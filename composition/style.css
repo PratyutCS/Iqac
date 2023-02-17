@@ -121,14 +121,14 @@ a{
         background-color: #363636;
         height: 4.5vh;
         display: flex;
-        justify-content:flex-end;
+        justify-content:space-evenly;
         align-items: center;
     }
     .lolbtn{
         display: none !important;
     }
     .qq{
-        font-size: 1.75vh;
+        font-size: 1.5vh;
     }
     .btn-group{
         width:30vw;
