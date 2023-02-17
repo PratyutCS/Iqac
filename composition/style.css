@@ -65,7 +65,7 @@ a{
 }
 .sec2{
     background-color: white;
-    padding-top: 12.8vh;
+    padding-top: 15vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -76,7 +76,7 @@ a{
 #download{
     position: fixed;
     right: 1vw;
-    bottom: 1vw;
+    bottom: 1vh;
     padding: 0.5rem;
     border-radius: 0.5rem;
     border: none;
@@ -96,8 +96,9 @@ a{
     box-shadow: rgba(241,74,71, 0.4) 5px 5px, rgba(241,74,71, 0.3) 10px 10px, rgba(241,74,71, 0.2) 15px 15px, rgba(241,74,71, 0.1) 20px 20px, rgba(241,74,71, 0.05) 25px 25px, rgba(241,74,71, 0.4) -5px 5px, rgba(241,74,71, 0.3) -10px 10px, rgba(241,74,71, 0.2) -15px 15px, rgba(241,74,71, 0.1) -20px 20px, rgba(241,74,71, 0.05) -25px 25px;
 }
 @media screen and (max-width: 950px) {
-    ids {
-      height: 100vh;
+    #download{
+        right:2vw;
+        bottom:2vh;
     }
     .header1{
         width:100%;
@@ -122,6 +123,24 @@ a{
         display: flex;
         justify-content:flex-end;
         align-items: center;
+    }
+    .lolbtn{
+        display: none !important;
+    }
+    .qq{
+        font-size: 1.75vh;
+    }
+    .btn-group{
+        width:30vw;
+    }
+    #logo{
+        width:35vw;
+    }
+    #mbtn{
+        font-size: 2vh;
+    }
+    .sec2{
+        padding-top: 18vh;
     }
   }
   @media screen and (min-width: 1000px) {
@@ -151,6 +170,9 @@ a{
         display: flex;
         justify-content:flex-end;
         align-items: center;
+    }
+    .qaz{
+        display: none !important;
     }
   }
 .heading{
