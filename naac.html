@@ -1424,9 +1424,6 @@
                                                   </div>
                                                   <div id="collapse-3-6-2" class="collapse" data-parent="#accordion-1" aria-labelledby="heading-1-2">
                                                     <div class="card-body" style="display: flex; flex-direction: column;">
-                                                      <a href="" target="_blank" style=" font-weight: bold; font-size: 17px;">Summary Sheet</a>
-                                                      <br>
-                                                      <a href="" target="_blank" style="display: flex;">1.  </a>
                                                     </div>
                                                   </div>
                                               </div>
@@ -3014,7 +3011,6 @@
         href = links[i].getAttribute('href');
 
         if(href.trim().length < 1) {
-          
           links[i].style.color="green";
         }
         if(href.trim()=="#"){
@@ -3022,12 +3018,11 @@
         }
         if(links[i].innerHTML.toLowerCase() === "summary sheet"){
         links[i].style.fontWeight="bold";
-        links[i].style.fontSize="17px";
+        links[i].style.fontSize="2.25vh";
         }
         else{
           links[i].style.display="flex";
           if(links[i].target=="_blank"){
-            console.log(links[i].innerHTML);
             let str=links[i].innerHTML.substring(0,4);
             let str1=links[i].innerHTML.substring(4,links[i].length);
             h1=document.createElement("h6");
@@ -3038,8 +3033,6 @@
             links[i].innerHTML="";
             links[i].appendChild(h1);
             links[i].appendChild(h2);
-            console.log(str);
-            console.log(str1);
           }
         }
       }
