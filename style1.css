@@ -113,6 +113,13 @@ a{
     #mbtn{
         font-size: 2vh;
     }
+    .bd{
+        font-weight: 500;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        margin-top: 1vh;
+        max-width:80vw;
+        font-size: 1.5vh;
+    }
   }
   @media screen and (min-width: 1000px) {
     ids {
@@ -144,6 +151,13 @@ a{
     }
     .qaz{
         display: none !important;
+    }
+    .bd{
+        font-weight: 500;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        margin-top: 1vh;
+        max-width:50vw;
+        font-size: 2vh;
     }
   }
 .heading{
@@ -182,9 +196,11 @@ a{
 }
 .mh{
     font-weight: bold;
-    margin-left:-17.5vw;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     margin-top: 10vh;
+}
+.on{
+    margin-top:5vh;
 }
 .bar{
     padding-right: 1vw !important;
