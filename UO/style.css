@@ -145,8 +145,8 @@ a{
     }
     .mainimg{
         margin: auto;
-        width: 80vw !important;
-        height: 40vh !important;
+        width: 95vw !important;
+        height: 42.5vh !important;
     }
   }
   @media screen and (min-width: 1000px) {
