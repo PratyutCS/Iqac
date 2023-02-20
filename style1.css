@@ -115,10 +115,14 @@ a{
     }
     .bd{
         font-weight: 500;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Ruda",sans-serif;
         margin-top: 1vh;
         max-width:80vw;
         font-size: 1.5vh;
+    }
+    .pl{
+        font-size: 1.75vh;
+        color: black;
     }
   }
   @media screen and (min-width: 1000px) {
@@ -154,10 +158,14 @@ a{
     }
     .bd{
         font-weight: 500;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Ruda",sans-serif;
         margin-top: 1vh;
         max-width:50vw;
         font-size: 2vh;
+    }
+    .pl{
+        font-size: 2.25vh;
+        color: black;
     }
   }
 .heading{
@@ -205,4 +213,8 @@ a{
 .bar{
     padding-right: 1vw !important;
     color:rgb(255,127,0);
+}
+p{
+    line-height: 1.5;
+    color: #404041;
 }
