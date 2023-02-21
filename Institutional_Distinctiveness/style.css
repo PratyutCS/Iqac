@@ -11,7 +11,6 @@ body, html {
   *{
     padding: 0;
     margin: 0;
-    font-family:'Poppins';
 }
 ::-webkit-scrollbar{
     display: none;
@@ -76,14 +75,41 @@ a{
 }
 .sec2{
     background-color: white;
-    padding-top: 12.8vh;
+    padding-top: 15vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+#download{
+    position: fixed;
+    right: 1vw;
+    bottom: 1vh;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    color: black;
+    background-color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    transition: 1s;
+}
+#download:hover{
+    color: white;
+    background-color: black;
+}
+.ids{
+    width: 70vw;
+    box-shadow: rgba(241,74,71, 0.4) 5px 5px, rgba(241,74,71, 0.3) 10px 10px, rgba(241,74,71, 0.2) 15px 15px, rgba(241,74,71, 0.1) 20px 20px, rgba(241,74,71, 0.05) 25px 25px, rgba(241,74,71, 0.4) -5px 5px, rgba(241,74,71, 0.3) -10px 10px, rgba(241,74,71, 0.2) -15px 15px, rgba(241,74,71, 0.1) -20px 20px, rgba(241,74,71, 0.05) -25px 25px;
+}
 @media screen and (max-width: 950px) {
+    #download{
+        right:2vw;
+        bottom:2vh;
+    }
     .header1{
         width:100%;
         background-color: white;
@@ -105,8 +131,26 @@ a{
         background-color: #363636;
         height: 4.5vh;
         display: flex;
-        justify-content:flex-end;
+        justify-content:space-evenly;
         align-items: center;
+    }
+    .lolbtn{
+        display: none !important;
+    }
+    .qq{
+        font-size: 1.5vh;
+    }
+    .btn-group{
+        width:30vw;
+    }
+    #logo{
+        width:35vw;
+    }
+    #mbtn{
+        font-size: 2vh;
+    }
+    .sec2{
+        padding-top: 18vh;
     }
   }
   @media screen and (min-width: 1000px) {
@@ -137,6 +181,9 @@ a{
         justify-content:flex-end;
         align-items: center;
     }
+    .qaz{
+        display: none !important;
+    }
   }
 .heading{
     font-family: 'Poppins';
@@ -154,23 +201,23 @@ a{
     align-items: center;
 }
 .lolbtn{
-  text-decoration: none;
-  text-align: center;
-  border: none;
-  background-color: transparent;
-  color:#545252;
-  text-transform: uppercase;
-  font-weight: 550;
-  letter-spacing: -0.1vh;
-  font-family: 'Ruda',sans-serif;
-  font-size: 2.15vh;
-  padding-right:2.5vw;
-  height: 100%;
-  border: none;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    color:#545252;
+    text-transform: uppercase;
+    font-weight: 550;
+    letter-spacing: -0.1vh;
+    font-family: 'Ruda',sans-serif;
+    font-size: 2.15vh;
+    padding-right:2.5vw;
+    height: 100%;
+    border: none;
 }
 .lolbtn:hover{
-  text-decoration: none;
-  color: #fec258;
+    text-decoration: none;
+    color: #fec258;
 }
   body::-webkit-scrollbar {
     display: none;
@@ -231,12 +278,13 @@ background-image: url(./images/img9.jpg)
     margin-bottom: 18rem;
   }
   .contentMain{
-    color: white;
-    
-    position: relative;
-    
-    bottom: 32rem;
-
+  color:white;
+  position: relative;
+  bottom: 32rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   }
   h3{
     font-weight: 800;
@@ -244,9 +292,8 @@ background-image: url(./images/img9.jpg)
   }
    p{
     width: 80%;
-    font-size: 12;
+    font-size: 2vh;
     text-align: center;
-    margin-left: 12rem;
   }
   .carousel-item .ContentMain{
    z-index: 50;
@@ -263,18 +310,6 @@ background-image: url(./images/img9.jpg)
     font-weight: 700;
     font-size: 16px;
  }
- .dropdown{
-    margin-right: 1rem;
-    margin-bottom: -0.3rem;
- }
-
- .dropdown:hover .dropdown-menu {
-    display:block;
-    position: absolute;
-    right: 0.1rem;
-    transition: 10s ease-in-out;
-
-}
 .edit1 .contentMain{
     background-color: rgba(0, 0, 0, 0.237);
     position: relative;
@@ -283,19 +318,13 @@ background-image: url(./images/img9.jpg)
     backdrop-filter: brightness(70%) blur(2px);
     -webkit-backdrop-filter: brightness(70%)  blur(3px);
     padding: 0.5rem;
-   
 }
-
 .edit1 .contentMain p{
 height: fit-content;
 }
-
 .edit1 img{
-
     filter: none;
-    
-    }
-
+  }
 .carousel-control-prev{
   position: fixed;
 }
