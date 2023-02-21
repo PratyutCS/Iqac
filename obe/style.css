@@ -299,7 +299,7 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -313,7 +313,7 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -327,7 +327,7 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
