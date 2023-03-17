@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    font-family:'Poppins';
+    overflow: scroll;
 }
 ::-webkit-scrollbar{
     display: none;
@@ -65,14 +67,13 @@ a{
 }
 .sec2{
     background-color: white;
-    padding-top: 15vh;
     width: 100%;
+    padding-top: 17.5vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
-
 #download{
     position: fixed;
     right: 1vw;
@@ -91,10 +92,96 @@ a{
     color: white;
     background-color: black;
 }
-.ids{
-    width: 70vw;
-    box-shadow: rgba(241,74,71, 0.4) 5px 5px, rgba(241,74,71, 0.3) 10px 10px, rgba(241,74,71, 0.2) 15px 15px, rgba(241,74,71, 0.1) 20px 20px, rgba(241,74,71, 0.05) 25px 25px, rgba(241,74,71, 0.4) -5px 5px, rgba(241,74,71, 0.3) -10px 10px, rgba(241,74,71, 0.2) -15px 15px, rgba(241,74,71, 0.1) -20px 20px, rgba(241,74,71, 0.05) -25px 25px;
+
+
+.heading{
+    font-family: 'Poppins';
+    font-size: 2vw;
+    font-weight: bolder;
+    margin: auto;
 }
+.dropdown-item{
+    font-family: 'Poppins';
+}
+.resbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.lolbtn{
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  color:#545252;
+  text-transform: uppercase;
+  font-weight: 550;
+  letter-spacing: -0.1vh;
+  font-family: 'Ruda',sans-serif;
+  font-size: 2.15vh;
+  padding-right:2.5vw;
+  height: 100%;
+  border: none;
+}
+.lolbtn:hover{
+  text-decoration: none;
+  color: #fec258;
+}
+table, td{
+  border: 0.15vh solid;
+  margin-top: 10vh;
+  padding:2vh;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 2vh;
+}
+td{
+  width:17vw;
+}
+th{
+  padding:2vh;
+  width:17vw;
+  font-size: 2vh;
+}
+.btnlol{
+    color: rgb(255,127,0);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+.btnlol:hover{
+    color: rgb(255,127,0);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+.mh{
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 10vh;
+}
+.bar{
+    padding-right: 1vw !important;
+    color:rgb(255,127,0);
+}
+.sn{
+  width:5vw;
+  text-align: center;
+  font-size: 2vh;
+}
+.const{
+    text-align: center;
+    width: 10vw;
+    font-size: 2vh;
+}
+.desig{
+    width: 25vw;
+    font-size: 2vh;
+}
+.mem{
+    width: 5vw;
+    text-align: center;
+    font-size: 2vh;
+}
+
 @media screen and (max-width: 950px) {
     #download{
         right:2vw;
@@ -139,8 +226,25 @@ a{
     #mbtn{
         font-size: 2vh;
     }
-    .sec2{
-        padding-top: 18vh;
+    .bd{
+        font-weight: 500;
+        font-family: "Ruda",sans-serif;
+        margin-top: 1vh;
+        max-width:80vw;
+        font-size: 1.5vh;
+    }
+    .pl{
+        font-size: 1.75vh;
+        color: black;
+    }
+    .mh{
+        font-size: 2.5vh;
+    }
+    .table2{
+        margin-bottom: 5vh !important;
+    }
+    td{
+      width:17vw !important;
     }
   }
   @media screen and (min-width: 1000px) {
@@ -174,38 +278,21 @@ a{
     .qaz{
         display: none !important;
     }
+    .bd{
+        font-weight: 500;
+        font-family: "Ruda",sans-serif;
+        margin-top: 1vh;
+        max-width:50vw;
+        font-size: 2vh;
+    }
+    .pl{
+        font-size: 2.25vh;
+        color: black;
+    }
+    .table2{
+        margin-bottom: 5vh !important;
+    }
+    td{
+      width:17vw;
+    }
   }
-.heading{
-    font-family: 'Poppins';
-    font-size: 2vw;
-    font-weight: bolder;
-    margin: auto;
-}
-.dropdown-item{
-    font-family: 'Poppins';
-}
-.resbtn{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-.lolbtn{
-    text-decoration: none;
-    text-align: center;
-    border: none;
-    background-color: transparent;
-    color:#545252;
-    text-transform: uppercase;
-    font-weight: 550;
-    letter-spacing: -0.1vh;
-    font-family: 'Ruda',sans-serif;
-    font-size: 2.15vh;
-    padding-right:2.5vw;
-    height: 100%;
-    border: none;
-}
-.lolbtn:hover{
-    text-decoration: none;
-    color: #fec258;
-}
